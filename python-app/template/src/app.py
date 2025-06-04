@@ -13,8 +13,8 @@ def info():
     	'time': datetime.datetime.now().strftime("%I:%M:%S%p  on %B %d, %Y"),
     	'hostname': socket.gethostname(),
         'message': 'Yippe You are doing great, little human! <3',
-        'deployed_on': 'kubernetes'
-        'env': '${{values.app_env}}'
+        'deployed_on': 'kubernetes',
+        'env': '${{values.app_env}}',
         'app_name': '${{values.app_name}}'
     })
 
