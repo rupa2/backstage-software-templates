@@ -70,7 +70,7 @@ jobs:
          --insecure \
          --grpc-web \
          --username admin \
-         --password {{ '${{ secrets.ARGOCD_PASWORD }}' }}
+         --password ${{ '${{ secrets.ARGOCD_PASWORD }}' }}
          argocd 
          argocd app sync ${{values.app_name}}
          
