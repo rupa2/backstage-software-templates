@@ -77,7 +77,7 @@ jobs:
         run: |
 
           # Connects the argocd repo
-          repo="https://github.com/rupa2-97/${{values.app_name}}.git"
+          repo="https://github.com/rupa-2/${{values.app_name}}.git"
           argocd repo list | grep -q $repo || argocd repo add $repo
 
           # Creates the argocd app
