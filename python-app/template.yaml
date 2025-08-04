@@ -26,6 +26,13 @@ spec:
           enum:
             - dev
             - prod
+        sample:
+          title: samplefield
+          type: string
+          description: The environment where this component will be deployed
+          enum:
+            - test
+            - test1
 
   steps:
     - id: fetch-base
