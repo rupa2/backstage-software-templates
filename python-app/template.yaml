@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: python-template
-  title: Python flask template
+  title: Python Golden Path
   description: Provisions a minimalistic flask application
 spec:
   owner: development
